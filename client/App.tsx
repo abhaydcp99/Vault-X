@@ -21,6 +21,7 @@ import EmployeeRegister from "./pages/EmployeeRegister";
 import ClerkDashboard from "./pages/ClerkDashboard";
 import ManagerDashboard from "./pages/ManagerDashboard";
 import AdminDashboard from "./pages/AdminDashboard";
+import BackendDemo from "./pages/BackendDemo";
 
 const queryClient = new QueryClient();
 
