@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using VaultX.Banking.API.Data;
 using VaultX.Banking.API.Models;
 
 namespace VaultX.Banking.API.Services;
