@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace VaultX.Banking.API.DTOs;
 
 public class CustomerResponseDto
