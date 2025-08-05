@@ -21,6 +21,7 @@ import EmployeeRegister from "./pages/EmployeeRegister";
 import ClerkDashboard from "./pages/ClerkDashboard";
 import ManagerDashboard from "./pages/ManagerDashboard";
 import AdminDashboard from "./pages/AdminDashboard";
+import BackendDemo from "./pages/BackendDemo";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/about" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/backend-demo" element={<BackendDemo />} />
 
           {/* Customer Routes */}
           <Route path="/customer/register" element={<CustomerRegister />} />

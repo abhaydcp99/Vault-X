@@ -95,6 +95,12 @@ const Index = () => {
               >
                 Contact
               </Link>
+              <Link
+                to="/backend-demo"
+                className={`${themeClasses.secondaryText} hover:${themeClasses.primaryText} transition-colors`}
+              >
+                Backend Demo
+              </Link>
               <ThemeToggle />
             </nav>
           </div>
